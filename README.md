@@ -19,7 +19,7 @@ mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App" -Dexec.args="REPL
 
 Don't forget to replace **REPLACE_FOR_ACCESS_TOKEN** for your generete access token.
 
-### Output
+### Info
 
 ```
 [INFO] --- exec-maven-plugin:1.5.0:java (default-cli) @ my-app ---
@@ -36,9 +36,25 @@ Account Name: Humberto Dias
 [INFO] ------------------------------------------------------------------------
 ```
 
-### Upload
+### Output
 
-![](doc/upload.png)
+1. Get User
+
+	```
+	Account Name: Humberto Dias
+	```
+	
+2. List Drop Files
+	
+	```
+	[List Files]
+	/salvos
+	/primeiros passos com dropbox.pdf
+	```
+
+3. Upload an temporary file
+
+	![](doc/upload.png)
 
 
 # References
