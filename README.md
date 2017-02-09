@@ -1,6 +1,6 @@
-# DropBox Java Client
+# DropBox Java Client V2
 
-Demo application showing how to use dropbox API in java.
+Demo application showing how to use dropbox API in Java.
 
 
 ### Generate
@@ -16,6 +16,8 @@ The new button can be found on the App Console for any Dropbox API app:
 ```
 mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App" -Dexec.args="REPLACE_FOR_ACCESS_TOKEN"
 ```
+
+Don't forget to replace **REPLACE_FOR_ACCESS_TOKEN** for your generete access token.
 
 ### Output
 
@@ -40,3 +42,5 @@ Account Name: Humberto Dias
 
 
 # References
+
+[DropBox for Developers](https://www.dropbox.com/developers)
