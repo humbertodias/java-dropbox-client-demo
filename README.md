@@ -3,7 +3,14 @@
 Demo application showing how to use dropbox API in Java.
 
 
-### Generate
+## Prerequires
+
+1. Git 2.6+
+2. Maven 3.3+
+3. Java 8+
+
+
+## Access Token
 
 First create an application on App Console:
 
@@ -14,8 +21,21 @@ Then generate and copy your Access Token:
 ![](doc/generate-access-token.png)
 
 
-### Run
+## How to Play
 
+Clone
+
+```
+git clone https://github.com/humbertodias/java-dropbox-client-demo.git
+```
+
+Inside the folder
+
+```
+cd java-dropbox-client-demo
+```
+
+### Run
 
 ```
 mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App" -Dexec.args="REPLACE_FOR_ACCESS_TOKEN"
@@ -40,7 +60,7 @@ Account Name: Humberto Dias
 [INFO] ------------------------------------------------------------------------
 ```
 
-### Output
+## Output
 
 1. Get User
 
