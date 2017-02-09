@@ -5,13 +5,17 @@ Demo application showing how to use dropbox API in Java.
 
 ### Generate
 
-The new button can be found on the App Console for any Dropbox API app:
-
-![](doc/generate-access-token.png)
+First create an application on App Console:
 
 [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps)
 
+Then generate and copy your Access Token:
+
+![](doc/generate-access-token.png)
+
+
 ### Run
+
 
 ```
 mvn compile exec:java -Dexec.mainClass="com.mycompany.app.App" -Dexec.args="REPLACE_FOR_ACCESS_TOKEN"
